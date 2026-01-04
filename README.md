@@ -1,203 +1,18 @@
-# DSA basic 
+## DSA basic
 
-### INDEX
-- [roadmap](#roadmap)
-- [checklist](#checklist)
-- [Programming Language](https://github.com/Saujanya-rajvanshi/C-)
-- [OOPs basic](https://github.com/Saujanya-rajvanshi/THEORY)
-- [dsa definition and types](#definition-and-types)
-- [basic data structure](#basic-data-structure)
+## INDEX 
+- [definition](#definition)
+- [Types](#Types)
+- []()
 
-### roadmap
-https://roadmap.sh/datastructures-and-algorithms?fl=0
-
-### checklist 
-Perfect, this is a **DSA roadmap image**, so I’ll convert it into a **clean GitHub-style checklist** ✅
-Since **GitHub Markdown can’t actually color boxes**, the **best practice** is to use **🔵 blue circle emojis** to visually represent *blue boxes*.
-
-You can **directly paste this into your README.md**.
-
----
-
-# 🔵 DSA ROADMAP – CHECKLIST
-
-## 🔵 Programming Fundamentals
-
-* [ ] Pick a Language
-
-  * [ ] C++
-
-* [ ] Language Syntax
-
-* [ ] Control Structures
-
-* [ ] Pseudo Code
-
-* [ ] Functions
-
-* [ ] OOP Basics
-
----
-
-## 🔵 Data Structures Basics
-
-* [ ] What are Data Structures?
-* [ ] Why are Data Structures Important?
-
-### 🔹 Basic Data Structures
-
-* [ ] Array
-* [ ] Linked List
-* [ ] Stack
-* [ ] Queue
-* [ ] Hash Table
-
----
-
-## 🔵 Algorithmic Complexity
-
-* [ ] Time vs Space Complexity
-* [ ] How to Calculate Complexity?
-
-### 🔹 Asymptotic Notation
-
-* [ ] Big-O
-* [ ] Big-Ω
-* [ ] Big-Θ
-
-### 🔹 Common Runtimes
-
-* [ ] Constant
-* [ ] Logarithmic
-* [ ] Linear
-* [ ] Polynomial
-* [ ] Exponential
-* [ ] Factorial
-
----
-
-## 🔵 Searching Algorithms
-
-* [ ] Linear Search
-* [ ] Binary Search
-
----
-
-## 🔵 Sorting Algorithms
-
-* [ ] Bubble Sort
-* [ ] Selection Sort
-* [ ] Insertion Sort
-* [ ] Merge Sort
-* [ ] Quick Sort
-* [ ] Heap Sort
-
----
-
-## 🔵 Tree Data Structures
-
-* [ ] Binary Tree
-* [ ] Binary Search Tree
-* [ ] AVL Tree
-* [ ] B-Tree
-* [ ] Heap
-
-### 🔹 Tree Traversals
-
-* [ ] Inorder
-* [ ] Preorder
-* [ ] Postorder
-
-### 🔹 Tree Search
-
-* [ ] Breadth First Search (BFS)
-* [ ] Depth First Search (DFS)
-
----
-
-## 🔵 Graph Data Structures
-
-* [ ] Directed Graph
-* [ ] Undirected Graph
-
-### 🔹 Graph Traversals
-
-* [ ] BFS
-* [ ] DFS
-
-### 🔹 Shortest Path Algorithms
-
-* [ ] Dijkstra’s Algorithm
-* [ ] Bellman-Ford Algorithm
-* [ ] A* Algorithm
-
-### 🔹 Minimum Spanning Tree
-
-* [ ] Prim’s Algorithm
-* [ ] Kruskal’s Algorithm
-
----
-
-## 🔵 Advanced Data Structures
-
-* [ ] Trie
-* [ ] Segment Tree
-* [ ] Fenwick Tree (BIT)
-* [ ] Disjoint Set (Union-Find)
-* [ ] Suffix Array / Suffix Tree
-
----
-
-## 🔵 Complex Data Structures
-
-* [ ] 2–3 Trees
-* [ ] B / B+ Trees
-* [ ] Skip List
-* [ ] ISAM
-
----
-
-## 🔵 Indexing
-
-* [ ] Linear Indexing
-* [ ] Tree-Based Indexing
-
----
-
-## 🔵 Problem Solving Techniques
-
-* [ ] Brute Force
-* [ ] Backtracking
-* [ ] Greedy Algorithms
-* [ ] Randomized Algorithms
-* [ ] Divide and Conquer
-* [ ] Recursion
-* [ ] Dynamic Programming
-* [ ] Two Pointer Technique
-* [ ] Sliding Window Technique
-
-### 🔹 Pattern-Based Problems
-
-* [ ] Island Traversal
-* [ ] Merge Intervals
-* [ ] Two Heaps
-* [ ] Kth Element
-* [ ] Cyclic Sort
-* [ ] Fast & Slow Pointers
-* [ ] Multi-threaded Problems
-
----
-
-## 🔵 Platforms to Practice
-
-* [ ] LeetCode
-* [ ] Edabit
-
----
-
-## definition and types
+## definition
 
 Data structures are specialized formats for organizing and storing data in a computer so that it can be used efficiently. They provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services. They are critical to programming and are used in almost all software systems including web development, operating systems, image editing, and much more. Some common types of data structures are arrays, linked lists, queues, stacks, trees, and graphs. The choice of the data structure often begins from the choice of an abstract data type, a broad type encapsulating various possible data structures."
+
+## Types
+- [primitive and non primitive](#primitive-and-non-primitive)
+- [linear and non linear](#linear-and-non-linear)
+- [static and dynamic]
 
 ```cpp
                       Data Structure Types
@@ -216,8 +31,41 @@ Data structures are specialized formats for organizing and storing data in a com
                                        List                                                         set      map    table
 ```
 
+###### primitive and non primitive
+
 ---
 
+## 🔷 Primitive vs Non-Primitive Data Types
+
+| **Aspect**       | **Primitive Data Types**        | **Non-Primitive Data Types**             |
+| ---------------- | ------------------------------- | ---------------------------------------- |
+| **Definition**   | Store **single, simple values** | Store **multiple or complex data**       |
+| **Data Storage** | Hold **actual value**           | Hold **reference/address of data**       |
+| **Memory Size**  | Fixed size                      | Dynamic or variable size                 |
+| **Complexity**   | Simple and lightweight          | Complex and structured                   |
+| **Access Speed** | Faster                          | Slower compared to primitive             |
+| **Operations**   | Limited operations              | Support advanced operations              |
+| **Mutability**   | Immutable by default            | Mostly mutable                           |
+| **Scalability**  | Less scalable                   | Highly scalable                          |
+| **Usage**        | Basic data storage              | Data organization and management         |
+| **Performance**  | High performance                | Depends on structure                     |
+| **Flexibility**  | Less flexible                   | More flexible                            |
+| **Examples**     | `int`, `float`, `char`, `bool`  | Array, String, Structure, Class, Pointer |
+
+---
+
+### 🔹 One-Line Difference (Interview)
+
+**Primitive data types store single values, while non-primitive data types store multiple or structured data using references.**
+
+---
+
+
+
+
+######  linear and non linear
+
+----
 ## 🔷 Linear vs Non-Linear Data Structures (Interview Table)
 
 | **Aspect**                    | **Linear Data Structures**                                            | **Non-Linear Data Structures**                          |
@@ -276,18 +124,50 @@ Interviewers often follow up with:
 
 ---
 
-## basic data structure
+###### static and dynamic 
 
-#### array 
-- [array repository](https://github.com/Saujanya-rajvanshi/Arrays-)
+Here is a **clean, interview-ready comparison** of **Static vs Dynamic (Memory Allocation / Data Handling)** in **tabular form**, suitable for **exams and Google-style interviews**:
 
-#### list 
+---
 
-#### stack 
+## 🔷 Static vs Dynamic (Memory Allocation)
 
-#### queue
+| **Aspect**          | **Static**                             | **Dynamic**                            |
+| ------------------- | -------------------------------------- | -------------------------------------- |
+| **Definition**      | Memory allocated at **compile time**   | Memory allocated at **runtime**        |
+| **Memory Size**     | Fixed and known in advance             | Flexible, decided during execution     |
+| **Allocation Time** | Compile time                           | Runtime                                |
+| **Memory Location** | Stack / Static memory                  | Heap                                   |
+| **Resizing**        | Not possible                           | Possible                               |
+| **Lifetime**        | Exists till program ends or scope ends | Exists until manually deallocated      |
+| **Flexibility**     | Less flexible                          | Highly flexible                        |
+| **Speed**           | Faster access                          | Slightly slower                        |
+| **Memory Wastage**  | Possible if size unused                | Minimal (allocated as needed)          |
+| **User Control**    | Limited control                        | Full control                           |
+| **Complexity**      | Simple to use                          | More complex to manage                 |
+| **Error Risk**      | Low                                    | High (memory leaks, dangling pointers) |
+| **Best Used When**  | Size is known and fixed                | Size is unknown or variable            |
+| **Examples**        | Static array, global variables         | Dynamic array, linked list, vector     |
 
-#### tree
+---
 
-#### graph
+### 🔹 One-Line Interview Answer
+
+**Static memory is allocated at compile time with fixed size, while dynamic memory is allocated at runtime with flexible size.**
+
+---
+
+### ⭐ Google Interview Tip
+
+Expect follow-ups like:
+
+* ❓ Why is heap slower than stack?
+* ❓ When would you prefer dynamic memory over static?
+
+If you want:
+✔️ **C++ code examples**
+✔️ **Diagram / flow chart**
+✔️ **Static vs Dynamic arrays comparison**
+
+Just tell me 👍
 

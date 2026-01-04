@@ -6,8 +6,7 @@
 - [Programming Language](https://github.com/Saujanya-rajvanshi/C-)
 - [OOPs basic](https://github.com/Saujanya-rajvanshi/THEORY)
 - [dsa definition and types](#definition-and-types)
-
-Colorful 
+- [basic data structure](#basic-data-structure)
 
 ### roadmap
 https://roadmap.sh/datastructures-and-algorithms?fl=0
@@ -232,4 +231,18 @@ Data structures are specialized formats for organizing and storing data in a com
 * Essential for software and database development
 
 ---
+
+## basic data structure
+
+#### array 
+
+#### list 
+
+#### stack 
+
+#### queue
+
+#### tree
+
+#### graph
 

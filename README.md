@@ -235,6 +235,7 @@ Data structures are specialized formats for organizing and storing data in a com
 ## basic data structure
 
 #### array 
+- [array repository](https://github.com/Saujanya-rajvanshi/Arrays-)
 
 #### list 
 

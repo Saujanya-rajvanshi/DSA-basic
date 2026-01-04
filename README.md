@@ -126,8 +126,6 @@ Interviewers often follow up with:
 
 ###### static and dynamic 
 
-Here is a **clean, interview-ready comparison** of **Static vs Dynamic (Memory Allocation / Data Handling)** in **tabular form**, suitable for **exams and Google-style interviews**:
-
 ---
 
 ## 🔷 Static vs Dynamic (Memory Allocation)
@@ -163,11 +161,4 @@ Expect follow-ups like:
 
 * ❓ Why is heap slower than stack?
 * ❓ When would you prefer dynamic memory over static?
-
-If you want:
-✔️ **C++ code examples**
-✔️ **Diagram / flow chart**
-✔️ **Static vs Dynamic arrays comparison**
-
-Just tell me 👍
 

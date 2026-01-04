@@ -12,7 +12,7 @@ Data structures are specialized formats for organizing and storing data in a com
 ## Types
 - [primitive and non primitive](#primitive-and-non-primitive)
 - [linear and non linear](#linear-and-non-linear)
-- [static and dynamic]
+- [static and dynamic](#static-and-dynamic)
 
 ```cpp
                       Data Structure Types

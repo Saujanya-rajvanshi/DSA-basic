@@ -4,6 +4,8 @@
 - [roadmap](#roadmap)
 - [checklist](#checklist)
 - [Programming Language](https://github.com/Saujanya-rajvanshi/C-)
+- [OOPs basic](https://github.com/Saujanya-rajvanshi/THEORY)
+- [dsa definition and types](#definition-and-types)
 
 
 ### roadmap
@@ -193,15 +195,40 @@ You can **directly paste this into your README.md**.
 
 ---
 
-### 🔹 Pro GitHub Tip 💡
+## definition and basic 
 
-If you want **real blue boxes**, use **HTML inside README** (GitHub supports it).
-I can:
+Data structures are specialized formats for organizing and storing data in a computer so that it can be used efficiently. They provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services. They are critical to programming and are used in almost all software systems including web development, operating systems, image editing, and much more. Some common types of data structures are arrays, linked lists, queues, stacks, trees, and graphs. The choice of the data structure often begins from the choice of an abstract data type, a broad type encapsulating various possible data structures."
 
-* ✅ Convert this into **HTML blue cards**
-* ✅ Make a **progress tracker version**
-* ✅ Split this into **Beginner / Intermediate / Advanced**
+```cpp
+                    Data Structure Types
+                              |
+              ---------------------------------------------
+              |                                            |
+     Primitive Data Structure                 Non-Primitive Data Structure
+              |                                            |
+   --------------------------------          --------------------------------------------------------------------
+   |        |        |        |              |                             |                                 |
+ Integer   Float  Character   pointer      Linear DS                   Non-Linear DS                      hashing
+                                              |                             |                                |
+                                   -------------------          --------------------------            ----------------
+                                   |    |      |     |          |     |     |     |      |            |       |      |    
+                                 Array Linked Stack Queue    Tree  Heap   Trie Graph   Hash         hash     hash   hash  
+                                       List                                                         set      map    table
+```
 
-Just tell me what you want next 👍
 
+---
+
+## 🔹 Importance of Data Structures
+
+* Organize and store data efficiently
+* Foundation of algorithm design
+* Improve program performance
+* Enable fast data access, insertion, and deletion
+* Help in sorting, searching, and ordering data
+* Reduce code complexity
+* Make programs scalable and flexible
+* Essential for software and database development
+
+---
 

@@ -3,7 +3,6 @@
 ## INDEX 
 - [definition](#definition)
 - [Types](#Types)
-- []()
 
 ## definition
 
